@@ -264,6 +264,7 @@ header, .navbar {
     padding-bottom: 50px; 
 }
 
+
 form input, form textarea {
     outline: unset;
     padding: 20px;
@@ -302,7 +303,7 @@ form input, form textarea {
     color: #FFF;
     font-size: 15px;
     border-radius: 20px;
-    width: 400px;
+    width: 410px;
     height: 30px;
 }
 
@@ -488,34 +489,5 @@ footer {
 
     /* formulario */
 
-    .espacamento-form {
-        padding: 0;
-        padding-bottom: 5px;
-        margin-left: 15px;
-    }
-
-    .form {
-        width: auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    form {
-        width: 250px;
-    }
-
-    form input {
-        height: 10px;
-        width: 250px;
-    }
-
-    form textarea {
-        width: 250px;
-    }
     
-    .form button {
-        width: 250px;
-        margin-left: 15px;
-    }
-
 }
