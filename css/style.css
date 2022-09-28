@@ -441,7 +441,8 @@ footer {
     /* Palavra */
 
     .palavra {
-        width: 350px;
+        width: 380px;
+        padding: 0;
     }
 
     .palavra-container {
@@ -456,11 +457,14 @@ footer {
     }
 
     iframe {
-        width: 350px;
-        height: 230px;
+        height: 280px;
     }
 
     /* Redes sociais */
+
+    .facebook, .instagran, .youtube {
+        width: 280px;
+    }
 
     .section-redes {
         margin: 0;
@@ -491,7 +495,7 @@ footer {
     }
 
     .form {
-        width: 400px;
+        width: auto;
         display: flex;
         justify-content: center;
     }
