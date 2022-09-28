@@ -5,10 +5,9 @@ $( document ).ready(function() {
 
     let homeSection = $('#nav-container');
     let palavraSection = $('#Palavra-semana');
-    let RedesSociaisSection = $('#Redes-Sociais')
-    let CelulaSection = $('#Celula')
-    let ContribuicoesSection = $('#Contribuicoes-menu')
-    let ContatoSection = $('#Contato-menu')
+    let RedesSociaisSection = $('#Redes-Sociais');
+    let CelulaSection = $('#Celula');
+    let ContribuicoesSection = $('#Contribuicoes-menu');
 
     let scrollTo = '';
 
@@ -24,12 +23,9 @@ $( document ).ready(function() {
       scrollTo = CelulaSection;
     } else if(btnId == 'Contri-menu') {
       scrollTo = ContribuicoesSection;
-    } else if(btnId == 'Cont-menu') {
-      scrollTo = ContatoSection;
-    } 
-    else {
+    } else {
         scrollTo = homeSection;
-    }
+    };
 
     $([document.documentElement, document.body]).animate({
         scrollTop: $(scrollTo).offset().top - 70
