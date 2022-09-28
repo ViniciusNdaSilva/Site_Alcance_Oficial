@@ -1,0 +1,517 @@
+@charset "UTF-8";
+
+/* Gerais */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: azure;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+/* Barra de navegação */
+header, .navbar {
+    background-color: #313233;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+}
+
+.navbar-brand:hover {
+    color: #4ad9cba9;
+}
+
+#navbar-links a {
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+    transition: 0.6s;
+}
+
+/* Slider */
+
+.container-carrosel {
+    margin-top: 120px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.carousel-indicators .active {
+    background-color: #4ad9cba9;;
+}
+
+/* Nossos pastores */
+
+.container-pastores {
+    margin-top: 150px;
+}
+
+.nossos-pastores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.frases { 
+    margin-right: 100px;
+}
+
+.frase1, .frase2, .frase3, .frase4{
+    color: #313233;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.frase5 {
+    color: #4AD9CA;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foto-pastores {
+    height: 300px;
+}
+
+.tamanho-icone {
+    height: 40px;
+}
+
+.redes {
+    padding-top: 30px;
+}
+
+/* Nossos pastores */
+
+/* palavra da semana */
+
+.palavra-container {
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.Palavratitulo {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.palavra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* palavra da semana */
+
+
+
+/* Redes sociais */
+
+.section-redes {
+    margin: 250px 0 150px 0;
+    background-color: #313233;
+    padding-bottom: 150px;
+}
+
+.section-redes2 {
+    margin: 150px 0 150px 0;
+}
+
+.container-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.facebook, .instagran, .youtube {
+    background-color: rgba(0, 0, 0, 0.434);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.botao-incone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+.botao-de-acesso {
+    background-color: #4AD9CA;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.botao2 {
+    margin-top: 15px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.texto1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Redes sociais */
+
+/* Mapa */
+
+.Mapa-font {
+    color:  #313233;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo4 {
+    margin: 150px 0 150px 0;
+}
+
+/* MAPA */
+
+/* CONTRIBUICOES */
+
+.titulo-Contribuicoes {
+    color:  #313233;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-contribuicoes {
+    margin: 150px 0 150px 0;
+}
+
+.contribuicoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTRIBUICOES */
+
+
+/* formulario */
+
+.container-form {
+    background-color:#101026;
+    padding-bottom: 50px; 
+}
+
+form input, form textarea {
+    outline: unset;
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.titulo-form {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-form h2 {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.espacamento-form {
+    padding: 5px;
+}
+
+.form button {
+    background-color: #4AD9CA;
+    color: #FFF;
+    font-size: 15px;
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+}
+
+/*background-color: #101026;*/
+ 
+
+/* Footer */
+
+.logo-footer {
+    width: 130px;
+}
+
+.brand-footer {
+    padding-bottom: 30px;
+}
+footer {
+    background-color: #313233;
+    padding: 20px;
+}
+
+.titulo-footer {
+    color: #4AD9CA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.referencia p {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.Desenvolvido-por {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    /* Geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    /* Slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
+    /* Nossos Pastores */
+    .nossos-pastores {
+        margin-top: 0px;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto-pastores {
+        margin-top: 50px;
+    }
+
+    /* Palavra */
+
+    .palavra {
+        width: 650px;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Redes sociais */
+
+    .facebook, .instagran, .youtube {
+        width: 230px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    /* slider */
+    #mainSlider {
+        margin-top: 10px;
+    }
+
+    .container-carrosel {
+        margin-top: 40px;
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    /* nossos Pastores */
+
+    .titulo-Contribuicoes {
+        font-size: 20px;
+    }
+
+    .nossos-pastores {
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+
+    .container-pastores {
+        margin-top: 0px;
+    }
+
+    .nossos-pastores {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frase1, .frase2, .frase3, .frase4 {
+        font-size: 15px;
+    }
+
+    .foto-pastores {
+        height: 230px;
+        width: 350px;
+    }
+
+    /* Palavra */
+
+    .palavra {
+        width: 350px;
+    }
+
+    .palavra-container {
+        background-color: black;
+        padding-bottom: 50px;
+        margin-bottom: 0;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        width: 350px;
+        height: 230px;
+    }
+
+    /* Redes sociais */
+
+    .section-redes {
+        margin: 0;
+    }
+
+    .section-redes2 {
+        margin: 0;
+    }
+
+    .container-redes {
+        display: flex;
+        flex-direction: column;        
+    }
+    .facebook, .instagran, .youtube {
+        margin-bottom: 51px;
+    }
+
+    .oferta {
+        width: 350px;
+    }
+
+    /* formulario */
+
+    .espacamento-form {
+        padding: 0;
+        padding-bottom: 5px;
+        margin-left: 15px;
+    }
+
+    .form {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    form {
+        width: 250px;
+    }
+
+    form input {
+        height: 10px;
+        width: 250px;
+    }
+
+    form textarea {
+        width: 250px;
+    }
+    
+    .form button {
+        width: 250px;
+        margin-left: 15px;
+    }
+
+}
