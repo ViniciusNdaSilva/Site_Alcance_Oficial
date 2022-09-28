@@ -256,60 +256,6 @@ header, .navbar {
 
 /* CONTRIBUICOES */
 
-
-/* formulario */
-
-.container-form {
-    background-color:#101026;
-    padding-bottom: 50px; 
-}
-
-
-form input, form textarea {
-    outline: unset;
-    padding: 20px;
-    width: 400px;
-    border: 1px solid #fff;
-    border-radius: 20px;
-}
-
-.titulo-form {
-    text-align: center;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.titulo-form h2 {
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.espacamento-form {
-    padding: 5px;
-}
-
-.form button {
-    background-color: #4AD9CA;
-    color: #FFF;
-    font-size: 15px;
-    border-radius: 20px;
-    width: 410px;
-    height: 30px;
-}
-
-/*background-color: #101026;*/
- 
-
 /* Footer */
 
 .logo-footer {
@@ -486,8 +432,6 @@ footer {
     .oferta {
         width: 350px;
     }
-
-    /* formulario */
 
     
 }
