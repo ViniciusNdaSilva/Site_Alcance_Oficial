@@ -221,9 +221,20 @@ header, .navbar {
     font-weight: bold;
 }
 
+.container-texto-mapa {
+    
+}
+
+.texto-mapa {
+    text-align: center;
+    width: 750px;
+    color:  #313233;
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .mapa {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -259,13 +270,16 @@ header, .navbar {
 /* Footer */
 
 .logo-footer {
-    width: 130px;
+    width: 75px;
+    margin-right: 50px;
 }
 
 .brand-footer {
     padding-bottom: 30px;
 }
 footer {
+    display: flex;
+    height: 72px;
     background-color: #313233;
     padding: 20px;
 }

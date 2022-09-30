@@ -1,9 +1,10 @@
-$( document ).ready(function() {
+Pas$( document ).ready(function() {
     // Scroll para seções // 
 
     let navBtn = $('.nav-item');
 
     let homeSection = $('#nav-container');
+    let pastoresSection = $('#pastores');
     let palavraSection = $('#Palavra-semana');
     let RedesSociaisSection = $('#Redes-Sociais');
     let CelulaSection = $('#Celula');
@@ -15,16 +16,23 @@ $( document ).ready(function() {
 
     let btnId = $(this).attr('id');
 
-    if(btnId == 'Palavra-menu') {
+    if(btnId == 'pastores-menu') {
+      scrollTo = pastoresSection;
+    }
+    else if(btnId == 'Palavra-menu') {
       scrollTo = palavraSection;
-    } else if(btnId == 'Redes-Sociais-menu') {
+    }
+    else if(btnId == 'Redes-Sociais-menu') {
       scrollTo = RedesSociaisSection;
-    } else if(btnId == 'Celula-menu') {
+    }
+    else if(btnId == 'Celula-menu') {
       scrollTo = CelulaSection;
-    } else if(btnId == 'Contri-menu') {
+    }
+    else if(btnId == 'Contri-menu') {
       scrollTo = ContribuicoesSection;
-    } else {
-        scrollTo = homeSection;
+    }
+    else {
+      scrollTo = homeSection;
     };
 
     $([document.documentElement, document.body]).animate({
