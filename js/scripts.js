@@ -3,7 +3,7 @@ Pas$( document ).ready(function() {
 
     let navBtn = $('.nav-item');
 
-    let homeSection = $('#nav-container');
+    let homeSection = $('#mainSlider');
     let pastoresSection = $('#pastores');
     let palavraSection = $('#Palavra-semana');
     let RedesSociaisSection = $('#Redes-Sociais');
@@ -18,22 +18,17 @@ Pas$( document ).ready(function() {
 
     if(btnId == 'pastores-menu') {
       scrollTo = pastoresSection;
-    }
-    else if(btnId == 'Palavra-menu') {
+    } else if(btnId == 'Palavra-menu') {
       scrollTo = palavraSection;
-    }
-    else if(btnId == 'Redes-Sociais-menu') {
+    } else if(btnId == 'Redes-Sociais-menu') {
       scrollTo = RedesSociaisSection;
-    }
-    else if(btnId == 'Celula-menu') {
+    } else if(btnId == 'Celula-menu') {
       scrollTo = CelulaSection;
-    }
-    else if(btnId == 'Contri-menu') {
+    } else if(btnId == 'Contri-menu') {
       scrollTo = ContribuicoesSection;
-    }
-    else {
+    } else {
       scrollTo = homeSection;
-    };
+    }
 
     $([document.documentElement, document.body]).animate({
         scrollTop: $(scrollTo).offset().top - 70
