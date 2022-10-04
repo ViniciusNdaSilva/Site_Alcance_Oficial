@@ -71,6 +71,10 @@ header, .navbar {
 
 /* Nossos pastores */
 
+section {
+    min-height: 100vh;
+}
+
 .container-pastores {
     margin-top: 150px;
 }
@@ -222,14 +226,16 @@ header, .navbar {
 }
 
 .container-texto-mapa {
+    display: inline-block;
+    text-align: center;
+    margin: 0 200px 50px 200px;
     
 }
 
 .texto-mapa {
-    text-align: center;
-    width: 750px;
     color:  #313233;
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 

@@ -1,16 +1,17 @@
-Pas$( document ).ready(function() {
-    // Scroll para seções // 
+$( document ).ready(function() {
 
-    let navBtn = $('.nav-item');
+  // scroll para as seções
 
-    let homeSection = $('#mainSlider');
-    let pastoresSection = $('#pastores');
-    let palavraSection = $('#Palavra-semana');
-    let RedesSociaisSection = $('#Redes-Sociais');
-    let CelulaSection = $('#Celula');
-    let ContribuicoesSection = $('#Contribuicoes-menu');
+  let navBtn = $('.nav-item');
 
-    let scrollTo = '';
+  let bannerSection = $('#mainSlider');
+  let pastoresSection = $('#pastores');
+  let palavraSection = $('#Palavra-semana');
+  let redessociaisSection = $('#Redes-Sociais');
+  let celulaSection = $('#Celula');
+  let contribuicoesSection = $('#Contribuicoes-menu');
+
+  let scrollTo = '';
 
   $(navBtn).click(function() {
 
@@ -21,17 +22,18 @@ Pas$( document ).ready(function() {
     } else if(btnId == 'Palavra-menu') {
       scrollTo = palavraSection;
     } else if(btnId == 'Redes-Sociais-menu') {
-      scrollTo = RedesSociaisSection;
+      scrollTo = redessociaisSection;
     } else if(btnId == 'Celula-menu') {
-      scrollTo = CelulaSection;
+      scrollTo = celulaSection;
     } else if(btnId == 'Contri-menu') {
-      scrollTo = ContribuicoesSection;
+      scrollTo = contribuicoesSection;
     } else {
-      scrollTo = homeSection;
+      scrollTo = bannerSection;
     }
 
     $([document.documentElement, document.body]).animate({
         scrollTop: $(scrollTo).offset().top - 70
     }, 1500);
   });
+
 });
