@@ -263,11 +263,21 @@ section {
 
 .div-contribuicoes1 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 .imagem-contribuicao {
     width: 250px;
+}
+
+.texto-contribuicoes {
+    color:  #313233;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 /* CONTRIBUICOES */
