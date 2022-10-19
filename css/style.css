@@ -261,6 +261,14 @@ section {
     font-weight: bold;
 }
 
+.div-contribuicoes1 {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-contribuicao {
+    width: 250px;
+}
 
 /* CONTRIBUICOES */
 
