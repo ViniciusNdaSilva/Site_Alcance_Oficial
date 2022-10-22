@@ -267,8 +267,15 @@ section {
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;   
+}
+
+.imagem-banner {
+    width: 935px;
+}
+
+.imagem-banner-m {
+    display: none;
 }
 
 
@@ -475,6 +482,18 @@ footer {
     
     footer {
         height: 120px;
+        width: auto;
+    }
+
+    /* oferta */
+
+    .imagem-banner-m {
+        height: 120px;
+        width: auto;
+    }
+
+    .imagem-banner {
+        display: none;
     }
     
 }
