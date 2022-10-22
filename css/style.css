@@ -267,18 +267,10 @@ section {
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 50px;
     
 }
 
-.imagem-contribuicao {
-    width: 250px;
-}
-
-.texto-contribuicoes {
-    color:  #313233;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
 
 /* CONTRIBUICOES */
 
