@@ -488,8 +488,8 @@ footer {
     /* oferta */
 
     .imagem-banner-m {
-        height: 120px;
-        width: auto;
+        display: block;
+        max-width: 100%;
     }
 
     .imagem-banner {
