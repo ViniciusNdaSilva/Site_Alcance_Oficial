@@ -225,7 +225,6 @@ section {
     display: inline-block;
     text-align: center;
     margin: 0 200px 50px 200px;
-    
 }
 
 .texto-mapa {
@@ -233,7 +232,6 @@ section {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
-
 
 .mapa {
     display: flex;
@@ -252,28 +250,54 @@ section {
     color:  #313233;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    padding: 50px;
     text-align: center;
     font-weight: bold;
+    margin: 50px;
 }
 
-.div-contribuicoes1 {
+#linha-vertical {
+    height: 400px;
+    border-right: 1px solid #313233;
+}
+
+.fonte-contr {
+    font-family: 'Roboto';
+    color: #313233;
+    text-align: justify;
+    border: 1px solid #313233;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.fonte-contr-1 {
+    font-family: 'Roboto';
+    color: #313233;
+    text-align: center;
+    border: 1px solid #313233;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.logo-contri {
+    width: 150px;
+    margin: 20px;
+}
+
+.container-logo-contri {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;   
+    width: 100%;
+    height: 100%;
 }
-
-.imagem-banner {
-    width: 935px;
+.container-contribuicoes-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px 100px 100px;
 }
-
-.imagem-banner-m {
-    display: none;
-}
-
 
 /* CONTRIBUICOES */
 
@@ -483,13 +507,20 @@ footer {
 
     /* oferta */
 
-    .imagem-banner-m {
-        display: block;
-        max-width: 100%;
+    .container-contribuicoes-1 {
+        display: inline;
     }
 
-    .imagem-banner {
-        display: none;
+    .container-logo-contri {
+        margin-bottom: 0px;
     }
-    
+
+    #linha-vertical {
+        height: 0px;
+    }
+
+    .fonte-contr-1, .fonte-contr {
+        font-size: 15px;
+        margin: 0 50px 20px 50px;
+    }
 }
