@@ -25,7 +25,7 @@ p, li {
 
 /* Barra de navegação */
 header, .navbar {
-    background-color: #313233;
+    background-color: #4abdac;
 }
 
 #nav-container {
@@ -34,7 +34,7 @@ header, .navbar {
 }
 
 #logo {
-    width: 75px;
+    width: 100px;
 }
 
 .navbar-brand {
@@ -47,7 +47,7 @@ header, .navbar {
 }
 
 #navbar-links a {
-    color: #FFF;
+    color: black;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -66,6 +66,16 @@ header, .navbar {
 }
 
 /* Nossos pastores */
+
+.titulo-pastores {
+    color:  #313233;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+    margin-bottom: 100px;
+}
 
 section {
     min-height: 100vh;
@@ -94,13 +104,20 @@ section {
     padding: 10px;
 }
 
+.redes {
+    display: flex;
+    align-items: center;
+}
+
 .frase5 {
     color: #4AD9CA;
     font-family: 'Roboto', sans-serif;
+    padding: 10px;
 }
 
 .foto-pastores {
     height: 300px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.161);
 }
 
 .tamanho-icone {
@@ -165,18 +182,24 @@ section {
     border-radius: 10px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     text-align: center;
+    padding-top: 20px;
+}
+
+.text-sub {
+    margin-top: 15px;
+    font-size: 20px;
 }
 
 .botao-incone {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 20px;
-    height: 60px;
+    height: 80px;
 }
 
 .botao-de-acesso {
@@ -188,12 +211,13 @@ section {
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 40px;
+    margin-top: 100px;
     border-radius: 30px;
 }
 
 .botao2 {
-    margin-top: 15px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 
@@ -203,7 +227,7 @@ section {
 }
 
 .texto1 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
@@ -236,6 +260,11 @@ section {
 .mapa {
     display: flex;
     justify-content: center;
+}
+
+.size-map {
+    width: 90vw;
+    height: 70vh;
 }
 
 #titulo4 {
@@ -302,7 +331,7 @@ section {
 /* Footer */
 
 .logo-footer {
-    width: 75px;
+    width: 100px;
     margin-right: 50px;
 }
 
@@ -312,7 +341,7 @@ section {
 footer {
     display: flex;
     height: 72px;
-    background-color: #313233;
+    background-color: #4abdac;
     padding: 20px;
 }
 
@@ -325,7 +354,7 @@ footer {
 }
 
 .referencia p {
-    color: #FFF;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
