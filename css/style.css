@@ -57,6 +57,10 @@ header, .navbar {
 
 /* Slider */
 
+.container-carrosel {
+
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -236,7 +240,8 @@ section {
 
 .link {
     text-decoration: none;
-    color: #fff;
+    color: black;
+    font-weight: bold;
 }
 
 .texto1 {
