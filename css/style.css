@@ -114,7 +114,7 @@ section {
 }
 
 .frase5 {
-    color: #4AD9CA;
+    color: black;
     font-family: 'Roboto', sans-serif;
     padding: 10px;
 }
@@ -360,7 +360,7 @@ footer {
     display: flex;
     height: 72px;
     background-color: #4abdac;
-    padding: 20px;
+    padding: 15px;
 }
 
 .titulo-footer {
