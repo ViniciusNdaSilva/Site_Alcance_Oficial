@@ -354,7 +354,7 @@ section {
 }
 
 .brand-footer {
-    padding-bottom: 2px;
+    padding-bottom: 0px;
 }
 footer {
     display: flex;
