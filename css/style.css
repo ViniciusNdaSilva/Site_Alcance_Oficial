@@ -354,10 +354,12 @@ section {
 }
 
 #brand-footer {
+    display: inline;
     justify-content: center;
 }
 
 .brand-footer {
+    display: inline;
     justify-content: center;
 }
 
