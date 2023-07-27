@@ -356,6 +356,11 @@ section {
 #brand-footer {
     justify-content: center;
 }
+
+.brand-footer {
+    justify-content: center;
+}
+
 footer {
     display: flex;
     height: 72px;
