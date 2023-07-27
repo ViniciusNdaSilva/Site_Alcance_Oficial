@@ -354,7 +354,7 @@ section {
 }
 
 .brand-footer {
-    padding-bottom: 0px;
+    justify-content: flex-start;
 }
 footer {
     display: flex;
@@ -553,6 +553,7 @@ footer {
     footer {
         height: 120px;
         width: auto;
+	justify-content: flex-start;
     }
 
     /* oferta */
