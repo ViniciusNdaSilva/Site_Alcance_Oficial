@@ -353,8 +353,8 @@ section {
     margin-right: 50px;
 }
 
-.brand-footer {
-    padding-top: 10px;
+#brand-footer {
+    justify-content: center;
 }
 footer {
     display: flex;
