@@ -3,15 +3,21 @@
 /* Gerais */
 
 #brand-footer {
-    vertical-align: middle;
-    justify-content: center;
+    flex-wrap: wrap;
+justify-content: center;
+flex-direction: column;
 }
 
 .brand-footer {
-    vertical-align: middle;
-    justify-content: center;
+    flex-wrap: wrap;
+justify-content: center;
+flex-direction: column;
 }
 
+.logo-footer {
+    width: 100px;
+    margin-right: 50px;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -357,11 +363,6 @@ section {
 /* CONTRIBUICOES */
 
 /* Footer */
-
-.logo-footer {
-    width: 100px;
-    margin-right: 50px;
-}
 
 footer {
     display: flex;
