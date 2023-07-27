@@ -2,6 +2,16 @@
 
 /* Gerais */
 
+#brand-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.brand-footer {
+    display: flex;
+    justify-content: center;
+}
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -351,16 +361,6 @@ section {
 .logo-footer {
     width: 100px;
     margin-right: 50px;
-}
-
-#brand-footer {
-    display: inline;
-    justify-content: center;
-}
-
-.brand-footer {
-    display: inline;
-    justify-content: center;
 }
 
 footer {
