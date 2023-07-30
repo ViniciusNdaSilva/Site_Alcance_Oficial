@@ -290,7 +290,7 @@ section {
 .texto-mapa {
     color:  #313233;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .mapa {
@@ -548,7 +548,7 @@ footer {
     }
 
     .texto-mapa {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .container-texto-mapa {
