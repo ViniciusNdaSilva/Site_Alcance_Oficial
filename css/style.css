@@ -325,6 +325,11 @@ section {
     border-right: 1px solid #313233;
 }
 
+#linha-vertical2 {
+    height: 400px;
+    border-right: 1px solid #313233;
+}
+
 .fonte-contr {
     font-family: 'Roboto';
     color: #313233;
@@ -581,6 +586,10 @@ footer {
     }
 
     #linha-vertical {
+        height: 0px;
+    }
+
+    #linha-vertical2 {
         height: 0px;
     }
 
