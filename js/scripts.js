@@ -15,3 +15,6 @@ let e=$(this).attr("id")
 ;s="pastores-menu"==e?n:"Palavra-menu"==e?t:"Redes-Sociais-menu"==e?i:"Celula-menu"==e?o:"Contri-menu"==e?l:"Missao-menu"==e?m:a
 ,$([document.documentElement,document.body]).animate({scrollTop:$(s).offset().top-70},1500)})
 });
+$("#menu").click(function(){
+$("#navbar-links").toggle();
+});
